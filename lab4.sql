@@ -5,6 +5,13 @@ Drop Table if exists borrows cascade;
 Drop Table if exists has_written cascade;
 Drop Table if exists describes cascade;
 
+
+
+
+
+
+
+
 CREATE TABLE Books(	docID integer NOT NULL,
 			title char(20),
 			publisher char(20),
